@@ -25,11 +25,14 @@ async function reddit(subreddit) {
         method: "get",
         url: `https://www.reddit.com/r/${subreddit}.json?sort=new&t=day&limit=30`,
     }).then(function (resp) {
-		let body = resp.data.data;
-		let data = body.children;
-		const rand = Math.floor(Math.random() * Math.floor(data.length));
-		const obj = formatObject(data[rand].data);
-		console.log(obj);
-		return obj;
-    });
+		return new Promise((resolve, reject) => {
+			let body = resp.data.data;
+			let data = body.children;
+			const rand = Math.floor(Math.random() * Math.floor(data.length));
+			const obj = formatObject(data[rand].data);
+			resolve(obj);
+		});
+    }).catch(e => {
+		reject(e);
+	});
 }

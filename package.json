@@ -1,6 +1,6 @@
 {
   "name": "@kindl3d/reddit.js",
-  "version": "1.0.2",
+  "version": "1.1.2",
   "description": "Retrive random reddit posts",
   "main": "index.js",
   "scripts": {
