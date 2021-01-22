@@ -36,3 +36,5 @@ async function reddit(subreddit) {
 		reject(e);
 	});
 }
+
+module.exports = reddit;
