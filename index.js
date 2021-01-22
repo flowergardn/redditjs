@@ -8,12 +8,12 @@ function time(unixtime) {
 function formatObject(data) {
     return {
         title: data.title,
-		text: data.selftext,
-		flairText: data.link_flair_text,
+	text: data.selftext,
+	flairText: data.link_flair_text,
         author: data.author,
-		subreddit: `r/${data.subreddit}`,
-		url: data.url,
-		permalink: `http://reddit.com${data.permalink}`,
+	subreddit: `r/${data.subreddit}`,
+	url: data.url,
+	permalink: `http://reddit.com${data.permalink}`,
         created: time(parseInt(data.created, 10)),
         created_utc: time(parseInt(data.created_utc, 10)),
         nsfw: data.over_18,
