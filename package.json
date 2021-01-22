@@ -1,23 +1,52 @@
 {
-  "name": "@kindl3d/reddit.js",
-  "version": "1.1.4",
-  "description": "Retrive random reddit posts",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/k1ndled/redditjs.git"
+  "_from": "@kindl3d/reddit.js",
+  "_id": "@kindl3d/reddit.js@1.2.4",
+  "_inBundle": false,
+  "_integrity": "sha512-+qm+wZrtLpovBap13EUqRhhS9dTp4YyOI+M97TcVCEZLNktUP0fsyrd543uZjAvaxRQVQuQoAB/IBhEa30ao2Q==",
+  "_location": "/@kindl3d/reddit.js",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@kindl3d/reddit.js",
+    "name": "@kindl3d/reddit.js",
+    "escapedName": "@kindl3d%2freddit.js",
+    "scope": "@kindl3d",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@kindl3d/reddit.js/-/reddit.js-1.2.4.tgz",
+  "_shasum": "960c985c10eec39a9a7c8d30ef09d0dceb0ae4be",
+  "_spec": "@kindl3d/reddit.js",
+  "_where": "C:\\Users\\k1ndl\\Desktop\\d e v\\RPC-master",
+  "author": {
+    "name": "k1ndled"
+  },
+  "bugs": {
+    "url": "https://github.com/k1ndled/redditjs/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "deprecated": false,
+  "description": "Retrive random reddit posts",
+  "homepage": "https://github.com/k1ndled/redditjs#readme",
   "keywords": [
     "Reddit",
     "Reddit-API"
   ],
-  "author": "k1ndled",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/k1ndled/redditjs/issues"
+  "main": "index.js",
+  "name": "@kindl3d/reddit.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k1ndled/redditjs.git"
   },
-  "homepage": "https://github.com/k1ndled/redditjs#readme",
-  "dependencies": {
-    "axios": "^0.21.1"
-  }
+  "version": "1.2.4"
 }
