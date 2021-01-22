@@ -37,4 +37,4 @@ async function reddit(subreddit) {
 	});
 }
 
-exports = reddit;
+reddit("entitledparents")
