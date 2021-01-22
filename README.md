@@ -22,7 +22,7 @@ reddit("entitledparents").then(data =>{
 
 This outputs
 
-```json
+```
 {
   title: "Post title",
   text: "Post text",
@@ -34,6 +34,7 @@ This outputs
   created: '2021-01-23 00:02:34.000',
   created_utc: '2021-01-22 16:02:34.000',
   nsfw: false
-}```
+}
+```
 
 Have fun with this simple Reddit API wrapper, open an issue if you discover any bugs :)
