@@ -1,4 +1,4 @@
-# RedditJS
+# RedditJS (@kindl3d)
 Retrieve stories instantly from reddit.
 <p><a href="https://www.npmjs.com/package/@kindl3d/reddit.js" rel="nofollow"><img src="https://badgen.net/npm/dt/@kindl3d/reddit.js" alt="Downloads" /></a></p>
 
@@ -37,4 +37,7 @@ This outputs
 }
 ```
 
-Have fun with this simple Reddit API wrapper, open an issue if you discover any bugs :)
+## Why did I forked it? (ImAARIX)
+
+Now, the program use the Random API of Reddit.
+There's more outputs that before (the random was only on the newest publications).
