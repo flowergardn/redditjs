@@ -1,6 +1,6 @@
 {
   "_from": "@kindl3d/reddit.js",
-  "_id": "@kindl3d/reddit.js@1.2.4",
+  "_id": "@kindl3d/reddit.js@2.0",
   "_inBundle": false,
   "_integrity": "sha512-+qm+wZrtLpovBap13EUqRhhS9dTp4YyOI+M97TcVCEZLNktUP0fsyrd543uZjAvaxRQVQuQoAB/IBhEa30ao2Q==",
   "_location": "/@kindl3d/reddit.js",
@@ -20,10 +20,9 @@
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/@kindl3d/reddit.js/-/reddit.js-1.2.4.tgz",
+  "_resolved": "https://registry.npmjs.org/@kindl3d/reddit.js/-/reddit.js-2.0.tgz",
   "_shasum": "960c985c10eec39a9a7c8d30ef09d0dceb0ae4be",
   "_spec": "@kindl3d/reddit.js",
-  "_where": "C:\\Users\\k1ndl\\Desktop\\d e v\\RPC-master",
   "author": {
     "name": "k1ndled"
   },
@@ -32,7 +31,7 @@
   },
   "bundleDependencies": false,
   "dependencies": {
-    "axios": "^0.21.1"
+    "axios": "^0.21.4"
   },
   "deprecated": false,
   "description": "Retrive random reddit posts",
@@ -48,5 +47,5 @@
     "type": "git",
     "url": "git+https://github.com/k1ndled/redditjs.git"
   },
-  "version": "1.2.4"
+  "version": "2.0"
 }

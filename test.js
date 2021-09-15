@@ -1,5 +1,5 @@
-const { reddit } = require("@kindl3d/reddit.js")
+const { getPost } = require("@kindl3d/reddit.js")
  
-reddit("entitledparents").then(data =>{
+getPost("entitledparents").then(data =>{
     console.log(data);
 })
